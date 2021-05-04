@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+html,
+body,
+head,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat;
+    margin: 0;
+}
+/* Acima o reset do site e a font usada diretamente do Google */
+
+.HeaderNavSec{
+  width: 100%;
+  height: 800px;
+}
+.navImage{
+  background-image: url(../IMG/background-start.jpg);
+  /* Seta um tamanho mínimo de altura */
+  min-height: 800px;
+
+  /* Cria o efeito de rolagem do Parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.HeaderCont{
+  padding-top: 3%;
+  width: 900px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+/* Fim da configuração de Header da pagina inicial */
+
+/* Configuração do Header das outras paginas */
+.headerSite {
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #63a7d6;
+  display: block;
+}
+
+.HeaderPag {
+  width: 950px;
+  height: 100px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.logoSite {
+  /* padding-left: 100px; */
+  width: 250px;
+  height: 100px;
+}
+
+.HeaderNav {
+  display: flex;
+  height: 200px;
+  line-height: 50px;
+  margin: 0 auto;
+  width: 500px;
+  padding-left: 150px;
+}
+
+a.navOptions {
+  margin-top: 25px;
+  border: 1px solid #3290cf;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+a.navOptions:hover {
+  background-color: #3290cf;
+}
+
+
+/* Footer Site */
+.footerSite {
+  height: 200px;
+  background-color: #3290cf;
+  width: 100%;
+}
+
+.footerContainer {
+  width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  color: white;
+}
+
+#footerDesc {
+  width: 550px;
+  padding-top: 70px;
+}
+
+#footerInteg {
+  padding-left: 70px;
+  padding-top: 20px;
+}
+
+#footerList {
+  list-style-type: none;
+  text-align: left;
+}
+/* Fim do footer do site */
